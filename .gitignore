@@ -1,0 +1,21 @@
+target
+elm-stuff
+node_modules
+elm.js
+*.log
+
+# ignore jetbrains droppings (IntelliJ, WebStorm, ...)
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+/out/
+
+# bad mac: these should have been eliminated in the early 2000s
+.DS_Store
+
