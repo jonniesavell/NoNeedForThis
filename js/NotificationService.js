@@ -1,11 +1,11 @@
 /**
  * @author jonnie savell
  *
- * avoiding this through protected
+ * avoiding this through module protected members
  *
  * @type {{register, deregister, notify}}
  */
-var api = (function() {
+var notificationService = (function() {
 
     // private
     var listeners = [];
